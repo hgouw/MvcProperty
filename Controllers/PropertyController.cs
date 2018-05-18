@@ -5,9 +5,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MvcApplication1.Models;
+using MvcProperty.Models;
 
-namespace MvcApplication1.Controllers
+namespace MvcProperty.Controllers
 {
     public class PropertyController : Controller
     {
