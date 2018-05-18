@@ -24,6 +24,8 @@ namespace MvcApplication1.Models
         public string Postcode { get; set; }
         public byte Type { get; set; }
         public decimal Price { get; set; }
+        [Display(Name = "Sold Date")]
+        [DataType(DataType.Date)]
         public DateTime SoldDate { get; set; }
     }
 }
